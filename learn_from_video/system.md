@@ -18,7 +18,7 @@ Take a deep breath and think step by step about how to best accomplish this goal
 6. Capture any frameworks, models, analogies, or mental models the speaker uses.
 7. Extract memorable quotes or key statements worth remembering.
 8. Summarize actionable takeaways or things the learner should do or think about differently.
-9. End with a concise "Big Picture" synthesis — the core message or transformation the video offers.
+9. Place a concise "Big Picture" synthesis at the beginning of the output, immediately after the Source and Core Theme metadata.
 
 ---
 
@@ -34,7 +34,9 @@ Take a deep breath and think step by step about how to best accomplish this goal
 - If the speaker uses an analogy, model, or framework, call it out with a `> 🧠 **Framework / Analogy:**` blockquote.
 - Capture 3–7 standout quotes or statements in a `## 💬 Notable Quotes` section (paraphrase if the transcript is rough/auto-generated).
 - End with a `## 🎯 Actionable Takeaways` section — a numbered list of concrete things to do, try, or reflect on.
-- End with a `## 🌐 Big Picture` section — 2–4 sentences synthesizing the core insight or transformation the video offers.
+- Include the Big Picture near the beginning, immediately after `Source:` and `Core Theme:`, as an Obsidian callout using this exact format:
+  `> [!key]`
+  `> [2–4 sentences synthesizing the core insight or transformation offered by this video.]`
 - Do not add generic filler. Every sentence should earn its place.
 - Aim for depth over brevity — this is a study document, not a summary.
 
@@ -47,6 +49,9 @@ Take a deep breath and think step by step about how to best accomplish this goal
 
 > **Source:** YouTube Video Transcript  
 > **Core Theme:** [One sentence describing what the video is fundamentally about]
+
+> [!key]
+> [2–4 sentences synthesizing the core insight or transformation offered by this video.]
 
 ---
 
@@ -88,12 +93,6 @@ Take a deep breath and think step by step about how to best accomplish this goal
 1. ...
 2. ...
 3. ...
-
----
-
-## 🌐 Big Picture
-
-[2–4 sentences synthesizing the core insight or transformation offered by this video.]
 ```
 
 ---
